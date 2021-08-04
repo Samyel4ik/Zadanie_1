@@ -1,7 +1,7 @@
 public class Espresso extends Recipe {
 
     public Espresso() {
-        recipe = "Espresso";
+        name = "Espresso";
     }
 
     public double  getCoffee(){
@@ -10,5 +10,12 @@ public class Espresso extends Recipe {
 
     public double getWater() {
         return 0.45;
+    }
+
+    @Override
+    public String toString() {
+        return "Espresso{" +
+                "name='" + name + '\'' +
+                '}';
     }
 }

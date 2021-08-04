@@ -1,8 +1,8 @@
 public abstract class Recipe {
-    String recipe = "Unknown Beverage";
+    String name = "Unknown Beverage";
 
-    public String getRecipe(String name) {
-        return recipe;
+    public String getName() {
+        return name;
     }
 
     public abstract double  getCoffee();

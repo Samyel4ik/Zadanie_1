@@ -1,7 +1,7 @@
 public class Latte extends  Recipe {
 
     public Latte() {
-        recipe = "Latte";
+        name = "Latte";
     }
     public double  getCoffee(){
         return 1.75;
